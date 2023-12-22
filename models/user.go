@@ -1,6 +1,6 @@
 package models
 
 type User struct {
-	ID   int
-	Name string
+	ID   int    `bun:"id,pk,autoincrement"`
+	Name string `bun:"name"`
 }
