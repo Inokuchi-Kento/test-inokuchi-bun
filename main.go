@@ -24,7 +24,6 @@ func main() {
 	// if err := CreateTable(db); err != nil {
 	// 	log.Fatal(err)
 	// }
-
 	// InsertUser(db)
 	// BulkInsertUser(db)
 	// SelectUserByID(db)
